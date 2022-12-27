@@ -10,7 +10,7 @@ def url_mech(): #iki ayrı senaryo için tanımlanmış fonksiyon
         exit()
 
 
-        decision = int(input("Press 0 to choose manually, 1 to see top 5 currencies:"))
+decision = int(input("Press 0 to choose manually, 1 to see top 5 currencies:"))
 if decision == 1:
     popular_currencies = {1: "BTC", 2: "DOGE", 3: "AVAX", 4: "ETH", 5: "BNB"} #dictionary
     print("Top 5 currencies: ", popular_currencies)
