@@ -18,8 +18,8 @@ if decision == 1:
     currency_index = int(input("Enter the index of the currency: ")) 
     currency = popular_currencies[currency_index] #keyin sırasını girerek value bulma
     url_mech()
-
-    elif decision == 0:
+    
+elif decision == 0:
     currency = str(input("Enter the code of currency:"))
     url_mech()
 
